@@ -1,24 +1,60 @@
-# Node modules
-node_modules/
-
+# ===============================
 # Logs
-logs/
+# ===============================
+logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Environment variables
-.env          # Ignore actual .env file
-!.env.example # Include .env.example in Git
+# ===============================
+# Dependencies
+# ===============================
+node_modules/
 
-# Editor folders
-.vscode/
-.idea/
+# ===============================
+# Environment Variables (DO NOT PUSH)
+# ===============================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# OS files
+# Allow only example template
+!.env.example
+
+# ===============================
+# Runtime
+# ===============================
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ===============================
+# Coverage
+# ===============================
+coverage/
+.nyc_output
+
+# ===============================
+# Build Output
+# ===============================
+dist/
+build/
+out/
+
+# ===============================
+# OS Files
+# ===============================
 .DS_Store
 Thumbs.db
 
-# Optional: build output (if any)
-dist/
+# ===============================
+# IDE
+# ===============================
+.vscode/
+.idea/
