@@ -51,7 +51,7 @@ const SignUp = () => {
 
         {/* Logo */}
         <div className="flex justify-center mb-6">
-          <img src="/logo192.png" alt="Logo" className="w-20 h-20 rounded-full shadow-md" />
+          <img src="/Logo.png" alt="Logo" className="w-20 h-20 rounded-full shadow-md" />
         </div>
 
         <h2 className="text-4xl font-extrabold text-center text-gray-800">Create Account</h2>
